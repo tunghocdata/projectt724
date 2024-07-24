@@ -1,9 +1,9 @@
 ﻿import pandas as pd
 import matplotlib.pyplot as plt
 
-file_path = 'demo_test1.json'
+file_path = 'demo_test1.csv'
 
-df = pd.read_json(file_path)
+df = pd.read_csv(file_path)
 
 df['funding_date'] = pd.to_datetime(df['funding_date'])
 
