@@ -11,10 +11,10 @@ Tiêu chí :
 
 Các bước thực hiện :
 
-B1:    Mở file backup.sql bằng sql                        
-B2:    Query để ghép data (tên công ty, các job họ tuyển, size của công ty, funding của họ, lần funding gần nhất)                            
+B1:    Kéo dữ liệu từ cloud về MySQL và tiến hành query                        
+B2:    Query để ghép data (tên công ty, các job họ tuyển, size của công ty, funding của họ, lần funding gần nhất) - filename: 'thulai9.csv'                            
 B3:    Xuất dữ liệu từ Query sql bằng file csv rồi dùng python scoring            
-B4:    Scoring với Python bằng pandas và xuất kết quả lấy data nhập Power BI                        
-B5:    Trực quan hóa dữ liệu bằng Power BI
+B4:    Scoring với Python bằng pandas và xuất kết quả lấy data nhập Power BI 'output.xlsx'                      
+B5:    Trực quan hóa dữ liệu bằng Power BI 
 
 Vì đây là dự án đầu tay, cũng là dự án mình áp dụng những kiến thức mình học. Cảm ơn các bạn đã ghé!
